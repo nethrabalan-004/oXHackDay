@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*:root{
+    --blue--:#0A2848;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: #0A2848;
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+    align-items: center;
+    font-family: monospace;
+}
+nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: 80vh;
+    background-color:#0A2848;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+
+}
+.footer-top {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 120%;
+    width: 100%;
+    
+}
+
+
+        /* Root variables */
+        :root {
+            --blue: #0A2848;
+            --white: #FFFFFF;
+            --gray: #D3D3D3;
+        }
+
+        /* Footer styles */
+        footer {
+            width: 100%;
+            background-color: var(--blue);
+            color: var(--white);
+            font-family: monospace;
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+            padding: 40px;
+            align-items: flex-start;
+            flex-direction: column;
+            font-size: 120%;
+        }
+
+        /* Footer sections */
+        .footer-section {
+            flex: 1 1 300px; /* Responsive flex behavior */
+            margin: 10px;
+            align-items: center;
+            border-left: 1px solid white;
+            padding-left: 20px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin: 5px 0;
+        }
+
+        .footer-section ul li a {
+            color: var(--gray);
+            text-decoration: none;
+        }
+
+        .footer-section ul li a:hover {
+            color: var(--white);
+        }
+
+        /* Footer bottom */
+        .footer-bottom {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .ja{
+            width: 95%;
+            height: 40%;
+            /* background-color: aqua; */
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 110px;
+            align-items: center;
+        }
+       
+          
+          

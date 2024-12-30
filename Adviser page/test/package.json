@@ -1,0 +1,23 @@
+{
+  "name": "financial-advisor-page",
+  "version": "1.0.0",
+  "main": "page1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1"
+  }
+}

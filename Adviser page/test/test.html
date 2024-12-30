@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body onload="ensureFullScreen()">    
+    <div id="test-container" class="test-container">
+        <h1>Online Test</h1>
+        <div id="timer" class="timer" style="text-align: right; margin-bottom: 10px;"></div>
+        <form id="testForm">
+            <div class="question">
+                <label for="question1" id="qn1">hi</label>
+                <textarea id="ans1" name="question1" required></textarea>
+            </div>
+            <div class="question">
+                <label for="question2" id="qn2">hi</label>
+                <textarea id="ans2" name="question2" required></textarea>
+            </div>
+            <div class="question">
+                <label for="question3" id="qn3">hi</label>
+                <textarea id="ans3" name="question3" required></textarea>
+            </div>
+            <div class="question">
+                <label for="question4" id="qn4">hi</label>
+                <textarea id="ans4" name="question4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label for="question5" id="qn5">hi</label>
+                <textarea id="ans5" name="question5" required></textarea>
+            </div> 
+
+
+            <p id="err" class="err" style="display: none;">error</p>
+            <button type="button" class="submit-btn" onclick="submitAnswers()">Submit</button>
+        </form>
+    </div>
+    
+    <div class="result" id="result" style="display: none;">
+    
+    <div class="container">
+        <div class="header">
+            <h1 id="quali"></h1>
+        </div>
+        <div class="rating" id="rating">
+            <img src="loading.gif" alt="">
+        </div>
+        <div class="reason" id="reason">
+            <center>Wait a moment results are being evaluated</center>
+        </div>
+    </div>
+    <div class="b2" id="b2">
+        <a href="../demo.html"><button>Back</button></a>
+        <a href="../Advisor Form/advf.html" id="nxtBut" style="display: none;"><button>Next</button></a>
+    </div>
+    </div>
+    <div id="fullscreen-panel" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px; background-color: rgba(0, 0, 0, 0.8); color: white; text-align: center;">
+        <p>Please enable fullscreen mode to begin the test.</p>
+        <button onclick="toggleFullscreen()">Enable Fullscreen</button>
+    </div>
+    
+
+
+</body>
+<script src="test.js"></script>
+</html>
+
+
+
+

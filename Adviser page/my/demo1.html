@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-cont{
+            background-color: aqua;
+            margin:0;
+            padding: 50px 90px;
+        }
+        .container1{
+            background-color:azure;
+            padding:10px;
+        }
+        .cont1,.cont2,.cont3{
+            display: flex;
+            background-color: aquamarine;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .hid1,.hid2,.hid3{
+            background-color: gray;
+            padding:10px;
+            display: none;
+        }
+
+        .name,.mail,.logo{
+            padding:10px;
+            display: flex;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="main-cont" id="mainn-cont">
+    
+        <div class="container1" id="container1" onmouseover="hi(hid1)" onmouseleave="hello(hid1)">
+            <div class="cont1" id="cont1">
+                <div class="name" id="name">Nethra</div>
+                <div class="mail" id="mail">nethra@gmail.com</div>
+                <div class="logo" id="logo"><img src="" alt="icici"></div>
+            </div>
+            <div class="hid1" id="hid1">
+                sdjchvsbhjvshvcehgbchjvbds
+            </div>
+        </div>
+
+        <div class="container1" id="container2" onmouseover="hi(hid2)" onmouseleave="hello(hid2)">
+            <div class="cont2" id="cont2">
+                <div class="name" id="name">Nethra</div>
+                <div class="mail" id="mail">nethra@gmail.com</div>
+                <div class="logo" id="logo"><img src="" alt="icici"></div>
+            </div>
+            <div class="hid2" id="hid2">
+                sdjchvsbhjvshvcehgbchjvbds
+            </div>
+        </div>
+        <div class="container1" id="container3" onmouseover="hi(hid3)" onmouseleave="hello(hid3)">
+            <div class="cont3" id="cont3">
+                <div class="name" id="name">Nethra</div>
+                <div class="mail" id="mail">nethra@gmail.com</div>
+                <div class="logo" id="logo"><img src="" alt="icici"></div>
+            </div>
+            <div class="hid3" id="hid3">
+                sdjchvsbhjvshvcehgbchjvbds
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    const hid1=document.getElementById("hid1")
+
+    function hi(hid){
+        hid.style.display="block";
+    }
+    function hello(hid){
+        hid.style.display="none";
+    }
+</script>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="advf.css">
+</head>
+<body> 
+    <div class="form-container" id="form-container">
+    <div class="container">
+        <!-- Left Side Image -->
+        <!-- <div class="img-container">
+            <img src="img.jpeg" alt="Register Image">
+        </div> -->
+    
+        <!-- Right Side Form -->
+        <div class="container-1" id="container-1" >
+        <form class="form">
+            <h2 class="title">Register</h2>
+            <p class="message">Signup now and get full access to our app.</p>
+            <div class="flex">
+                <label>
+                    <input required placeholder="" type="text"  id="fname" class="input">
+                    <span>Firstname</span>
+                </label>
+    
+                <label>
+                    <input required placeholder="" type="text" id="sname" class="input">
+                    <span>Lastname</span>
+                </label>
+            </div>
+    
+            <label>
+                <input required placeholder="" type="email" id="email" class="input">
+                <span>Email</span>
+            </label>
+            
+            <label>
+                <input required placeholder="" type="gender" id="gender" class="input">
+                <span>Gender</span>
+            </label>
+
+
+            <label>
+                <input required placeholder="" type="password" id="pass" class="input">
+                <span>Password</span>
+            </label>
+    
+            <label>
+                <input required placeholder="" type="password" id="cpass" class="input">
+                <span>Confirm password</span>
+            </label>
+    
+            <!-- New Fields -->
+            <label>
+                <input required placeholder="" type="number" id="age" class="input">
+                <span>Age</span>
+            </label>
+
+
+            
+
+
+            <button class="next" id="next">Next</button>
+            </form>
+        </div>
+
+
+        <div class="container-2" id="container-2" style="display: none;">
+            <form action="" class="form">
+            <h2>Bank Details</h2>
+
+            <label>
+                <input required placeholder="" type="text" id="phnum" class="input">
+                <span>Phone Number</span>
+            </label>
+
+            <label>
+                <input required placeholder="" type="text" id="address" class="input">
+                <span>Address</span>
+            </label>
+
+
+            <label>
+                <input required placeholder="" type="text" id="bname" class="input">
+                <span>Bank Name</span>
+            </label>
+    
+            <label>
+                <input required placeholder="" type="text" id="bDetails" class="input">
+                <span>Bank Details</span>
+            </label>
+    
+            <div class="flex">
+                <label>
+                    <input required placeholder="" type="text" id="city" class="input">
+                    <span>City</span>
+                </label>
+    
+                <label>
+                    <input required placeholder="" type="text" id="state" class="input">
+                    <span>State</span>
+                </label>
+            </div>
+    
+            <label>
+                <input required placeholder="" type="text" id="lang" class="input">
+                <span>Languages Known</span>
+            </label>
+    
+            <label>
+                <input required placeholder="" type="text" id="jExp" class="input">
+                <span>Job Experience</span>
+            </label>
+            <p class="err" id="err" style="display: none;"></p>
+            <div class="b2" id="b2">
+                <button class="back" id="back">Back</button>
+                <button class="submit" id="submit">Submit</button>
+            </div>  
+        </form>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    <!-- Profile Box... -->
+    <div class="container2" id="container2" style="display: none;">
+    <div class="profile-container">
+        <div class="profile-section">
+            <h2>Client Profile</h2>
+            <div class="profile-item">
+                <strong>Full Name:</strong>
+                <span id="profile-name"></span>
+            </div>
+            <div class="profile-item">
+                <strong>Email Address:</strong>
+                <span id="profile-email"></span>
+            </div>
+            <div class="profile-item">
+                <strong>Phone Number:</strong>
+                <span id="profile-phone"></span>
+            </div>
+            <div class="profile-item">
+                <strong>Address:</strong>
+                <span id="profile-address"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="but-cont" id="but-cont">
+        <a href=""><button class="homeButton" id="homeButton">Return to Home</button></a>
+    </div>
+    </div>
+</body>
+<script src="advf.js"></script>
+</html>
